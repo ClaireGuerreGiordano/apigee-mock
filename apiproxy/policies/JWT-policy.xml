@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VerifyJWT continueOnError="false" enabled="true" name="JWT-policy">
+  <DisplayName>JWT-policy</DisplayName>
+  <Algorithm>RS256</Algorithm>
+  <Source>request.header.Authorization</Source>
+  <PublicKey>
+    <Value ref="propertyset.apigee.publicKey"/>
+  </PublicKey>
+  <Subject>c6231fde-6498-4890-bd47-638bf1529e10</Subject>
+  <Issuer>http://localhost:8080/realms/pocRealm</Issuer>
+  <Audience>be</Audience>
+</VerifyJWT>

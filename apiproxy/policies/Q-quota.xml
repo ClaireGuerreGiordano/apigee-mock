@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Quota continueOnError="false" enabled="true" name="Q-quota" type="calendar">
+  <DisplayName>Q-quota</DisplayName>
+  <Properties/>
+  <Interval ref="verifyapikey.VA-apik.apiproduct.developer.quota.interval">1</Interval>
+  <TimeUnit ref="verifyapikey.VA-apik.apiproduct.developer.quota.timeunit">hour</TimeUnit>
+  <Allow count="200" countRef="verifyapikey.VA-apik.apiproduct.developer.quota.limit"/>
+  <Distributed>false</Distributed>
+  <Synchronous>false</Synchronous>
+  <StartTime>2013-08-21 10:00:00</StartTime>
+  <AsynchronousConfiguration>
+    <SyncIntervalInSeconds>20</SyncIntervalInSeconds>
+    <SyncMessageCount>5</SyncMessageCount>
+  </AsynchronousConfiguration>
+</Quota>

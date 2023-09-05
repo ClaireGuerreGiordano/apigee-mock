@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="13" name="be">
+  <DisplayName/>
+  <Description/>
+  <CreatedAt>1688552332028</CreatedAt>
+  <LastModifiedAt>1688552332028</LastModifiedAt>
+  <BasePaths>/be</BasePaths>
+  <Policies>
+    <Policy>JWT-policy</Policy>
+    <Policy>SA-spike</Policy>
+    <Policy>Q-quota</Policy>
+    <Policy>VA-apik</Policy>
+  </Policies>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <Resources>
+    <Resource>properties://apigee.properties</Resource>
+  </Resources>
+  <TargetEndpoints>
+    <TargetEndpoint>default</TargetEndpoint>
+  </TargetEndpoints>
+</APIProxy>
